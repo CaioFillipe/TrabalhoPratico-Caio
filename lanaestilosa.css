@@ -33,8 +33,8 @@ header li{
     font-size: 350%;
     font-weight: lighter;
     position: absolute;
-    top: 25vh;
-    left: 25vh;
+    top: 35%;
+    left: 25%;
 }
 
 
@@ -58,7 +58,11 @@ p, table, ul{
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
-
+audio{
+    display: block;
+    margin: auto;
+    padding: 1%;
+}
 
 
 #lateral-esquerda {
@@ -143,16 +147,30 @@ section{
 #lateral-direita img{
     border-radius: 50%;
 }
+
 #imagem4{
     position: relative;
 }
+
 #imagem4:active{
     top: 1%;
     right: 1%;
 }
+
+#disco:hover{ 
+    animation: girando 1s ease-in-out 0s infinite ;
+  }
+  
+  @keyframes girando {
+    from {
+      transform: rotate(720deg);
+    }
+
+
+}
 /*Links*/
 a{
-    color: rgb(7, 46, 165);
+    color: rgb(137, 181, 201);
     text-decoration: none;
 }
 
