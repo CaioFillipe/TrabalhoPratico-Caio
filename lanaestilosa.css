@@ -64,7 +64,11 @@ audio{
     margin: auto;
     padding: 1%;
 }
-
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 #lateral-esquerda {
     grid-column: 1 / 2;
@@ -139,11 +143,7 @@ section>img{
     width: 100px;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 #lateral-direita img{
     border-radius: 50%;
 }
