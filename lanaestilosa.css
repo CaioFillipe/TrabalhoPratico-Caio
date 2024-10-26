@@ -10,6 +10,7 @@ header{
     grid-column: 2/3;
     grid-row: 1/2;
     padding: 3%;
+    position: relative;
 }
 header ul{
     padding-left: 8%;
@@ -33,8 +34,8 @@ header li{
     font-size: 350%;
     font-weight: lighter;
     position: absolute;
-    top: 35%;
-    left: 25%;
+    top: 25vh;
+    left: 15vh;
 }
 
 
@@ -110,7 +111,6 @@ img {
     display: block;
 }
 #imagem-principal{
-    position: relative;
     width: 100%;
     object-fit: cover;
     object-position: right top;
