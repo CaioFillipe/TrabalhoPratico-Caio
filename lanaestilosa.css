@@ -152,12 +152,12 @@ section>img{
     position: relative;
 }
 
-#imagem4:active{
+#imagem4:hover{
     top: 1%;
     right: 1%;
 }
 
-#disco:hover{ 
+#disco:active{ 
     animation: girando 1s ease-in-out 0s infinite ;
   }
   
