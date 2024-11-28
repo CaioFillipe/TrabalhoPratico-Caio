@@ -3,12 +3,6 @@ document.getElementById('easteregg').addEventListener('click', function() {
     window.location = 'lanawebsite.html';
 });
 
-//Toca musica ao tocar no easteregg
-document.getElementById('imagem-musical2').onclick = function() {
-    const audio1 = document.getElementById('cola');
-    audio1.currentTime = 0; 
-    audio1.play();
-};
 
 
 document.getElementById('imagem4').onclick = function() {
